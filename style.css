@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu-nav {
+	display: flex;
+	list-style: none;
+    font-size:30px ;
+    justify-content:space-around;
+
+}
+
+.menu-nav-link {
+   display:inline-block;
+}
+
+.menu-nav-link a {
+	color: white;
+    text-decoration: none; 
+ }
+
+ .menu-nav-link a:hover{
+ 	color: blue;
+ }
+
+ .menu{
+ 	background-color: grey;
+ 	padding: 30px;
+ }
+
+main{
+	padding: 20px;
+	margin: 10px;
+}
+
+body{
+	background-image:url(./imagenes/fondo.jpg);
+}
