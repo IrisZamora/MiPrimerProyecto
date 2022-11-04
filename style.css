@@ -8,6 +8,7 @@
 	list-style: none;
     font-size:30px ;
     justify-content:space-around;
+    align-items: center;
 
 }
 
@@ -21,19 +22,100 @@
  }
 
  .menu-nav-link a:hover{
- 	color: blue;
+ 	color: yellow	;
  }
 
  .menu{
- 	background-color: grey;
+ 	background-color:grey;
  	padding: 30px;
  }
 
+
+
 main{
-	padding: 20px;
-	margin: 10px;
+	background-image:url(./imagenes/fondo.jpg);
+	font-size: 15px;
+	font-family: sans-serif;
+  padding: 20px;
+
 }
 
-body{
-	background-image:url(./imagenes/fondo.jpg);
+ .menu-nav-link img{
+ 	height:200px;
+ 	width: 210px;
+ }
+
+img{
+	width: 25%;
+	height: 25%;
+
+}
+
+.quienesSomosNosotros{
+	display: flex;
+	flex-direction: row;
+}
+
+ .nosotros{
+ 	display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+ }
+ .nuestroCompromiso {
+ 	display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+
+ }
+
+ .quienesSomos{
+ 	display:flex;
+ 	justify-content: space-between	;
+ }
+
+ .mapa{
+ 	display: flex	;
+ 	justify-content: center	;
+
+ }
+
+ /*foteer*/
+ footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: grey;
+  color: black;
+}
+
+footer h3 {
+  padding: 20px 0;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.linea {
+  border: 1px solid yellow	;
+  width: 190px;
+  margin: auto;
+}
+
+.info-pag {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.alum,
+.prof {
+  text-align: left;
+}
+
+span {
+  color:black	;
 }
